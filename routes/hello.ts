@@ -6,6 +6,6 @@ export default {
   async handler(req) {
     const name = req.query.get("name") || "stranger";
 
-    return new Response(`Hello, YC!`);
+    return new Response(`Hello, YC! :)`);
   },
 } satisfies Route;
