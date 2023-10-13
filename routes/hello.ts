@@ -2,7 +2,7 @@ import type { Route } from "@endpts/types";
 
 export default {
   method: "GET",
-  path: "/hello",
+  path: "/hello/yc",
   async handler(req) {
     const name = req.query.get("name") || "stranger";
 
